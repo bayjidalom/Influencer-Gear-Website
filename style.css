@@ -43,6 +43,10 @@ nav li a {
     margin-right: 34px;
 }
 
+.nav-menu {
+    flex-wrap: wrap;
+}
+
 .logo {
     font-size: 24px;
     font-weight: 800;
@@ -55,3 +59,28 @@ nav a {
     color: #3A3A3A;
 }
 
+
+
+
+/* RESPONSIVE FOR MOBILE DEVICE */
+
+@media screen and (max-width: 576px) {
+    nav {
+
+        padding-top: 50px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .navbar,
+    .nav-menu {
+        flex-direction: column;
+    }
+
+    .logo {
+        font-size: 18px;
+    }
+
+
+
+}
