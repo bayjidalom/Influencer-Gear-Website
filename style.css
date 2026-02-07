@@ -131,8 +131,7 @@ nav a {
     background-color: #fff;
     display: grid;
     grid-template-columns: repeat(7,1fr);
-    padding: 41px 61px;
-    
+    padding: 41px 61px; 
 
 }
 
