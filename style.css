@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bangers&family=Bebas+Neue&family=Bitcount+Prop+Single+Ink:wght@100..900&family=Bungee&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lobster&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+US+Modern:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-.font-poppins {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-optical-sizing: auto;
-    font-style: normal;
-}
+
 
 * {
     margin: 0;
@@ -15,8 +10,16 @@
 
 /* SHARED STYLES */
 
+.font-poppins {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
 .display-flex,
-nav ul {
+.navbar ul,
+.banner-container {
     display: flex;
 }
 
@@ -58,6 +61,81 @@ nav a {
     font-weight: 600;
     color: #3A3A3A;
 }
+
+
+/* BANNER RELATED SYLES */
+
+.banner-section {
+    margin-top: 50px;
+
+}
+
+.banner-container {
+    max-width: 1188px;
+    height: 475px;
+    /* border:1px solid black; */
+    background: url(./images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    justify-content: space-between;
+    align-items: center;
+    gap: 133px;
+    
+}
+
+.banner-content {
+    max-width: 582px;
+
+}
+
+.banner-content h3 {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 52px;
+    font-weight: 900;
+    color: #3A3A3A;
+}
+
+.banner-content p {
+    font-size: 16px;
+    color: #3A3A3A;
+    margin-bottom: 16px;
+}
+
+.btn {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    border: none;
+    border-radius: 41px;
+    color: white;
+}
+
+
+
+.banner-image {
+    max-width: 440px;
+}
+
+
+
+/* SPONSORS RELATED STYLES */
+
+.sponsor-companies{
+    margin-top: 69px;
+}
+
+.sponsor-container{
+    max-width: 1110px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    padding: 41px 61px;
+    
+
+}
+
 
 
 
