@@ -217,12 +217,12 @@ nav a {
 
 /* FEATURED CARD RELATED STYLES */
 
-.feature-section{
+.feature-section {
     margin-top: 100px;
 
 }
 
-.feature-card-container{
+.feature-card-container {
     max-width: 1110px;
     display: flex;
     justify-content: space-between;
@@ -231,17 +231,17 @@ nav a {
 
 }
 
-.feature-image img{
+.feature-image img {
     max-width: 404px;
     width: 100%;
 }
 
-.feature-content{
+.feature-content {
     max-width: 610px;
 }
 
-.feature-content h3{
-    
+.feature-content h3 {
+
     font-size: 38px;
     font-weight: 800;
     line-height: 60px;
@@ -249,14 +249,14 @@ nav a {
     color: #0A0826;
 }
 
-.feature-content p{
+.feature-content p {
     font-size: 16px;
     color: #6C6C6C;
     line-height: 28px;
     margin-bottom: 16px;
 }
 
-.feature-content button{
+.feature-content button {
     font-size: 16px;
     font-weight: 800;
     color: #FFFFFF;
@@ -266,6 +266,78 @@ nav a {
     background-color: #E02C6D;
 }
 
+
+
+/* FOOTER RELATED STYLE */
+
+footer {
+    padding: 50px 0;
+    background-color: rgba(10, 8, 38, 1);
+    margin-top: 100px;
+    color: white;
+}
+
+.footer-container {
+    max-width: 262px;
+    text-align: center;
+
+}
+
+.brand-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 3px;
+    color: #FFFFFF;
+
+}
+
+.copy {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 3px;
+    color: #D9DBE1;
+
+}
+
+.rights {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 17px;
+    color: #D9DBE1;
+}
+
+.social {
+    max-width: 176px;
+    margin: 0 auto;
+}
+
+.social li {
+    list-style-type: none;
+}
+
+.social a {
+    text-decoration: none;
+    padding: 7px;
+    gap: 16px;
+
+}
+
+.social ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-instagram,
+.fa-twitter,
+.fa-youtube,
+.in {
+    color: white;
+    padding: 2px;
+    background-color: rgba(117, 110, 110, 0.308);
+    border-radius: 50%;
+}
 
 
 
